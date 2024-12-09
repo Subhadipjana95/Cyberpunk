@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Cannet1;
+  src: url(./public/Cannet2.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cannet1;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+

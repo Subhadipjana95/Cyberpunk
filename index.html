@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberpunk</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+  <div class="main w-full">
+    <nav class="fixed w-full top-0 left-0 px-10 flex justify-between item-center">
+      <img class="w-[12rem] top-0 mix-blend-lighten contrast-140 saturate-140" src="./public/Cyberpunk-logo2.png" alt="">
+      <div class="flex gap-5 item-center text-[0.6em]">
+        <a href="#" class="text-white hover:text-yellow-400 transition-colors my-auto tracking-tighter ">HOME</a>
+        <a href="#" class="text-white hover:text-yellow-400 transition-colors my-auto tracking-tighter">GAMES</a>
+        <a href="#" class="text-white hover:text-yellow-400 transition-colors my-auto tracking-tighter">COMMUNITY</a>
+        <a href="#" class="text-white hover:text-yellow-400 transition-colors my-auto tracking-tighter">NEWS</a>
+        <a href="#" class="text-white hover:text-yellow-400 transition-colors my-auto tracking-tighter">MERCH</a>
+        <a href="#" class="text-white hover:text-yellow-400 transition-colors my-auto tracking-tighter">SUPPORT</a>
+      </div>
+    </nav>
+    <div class="w-full h-screen overflow-hidden">
+      <img class="w-[70rem] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-lighten contrast-140 saturate-140" src="./public/Cyberpunk-logo2.png" alt="">
+      <div class="w-[29rem] h-[29rem] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-800 blur-[90px] z-[-1]"></div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="w-full h-screen bg-gradient-to-b from-black to-zinc-800"></div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
